@@ -17,7 +17,7 @@ import pafy #for getting the video details from youtube
 import plotly.express as px #for plotting the graphs 
 import nltk
 
-nltk.data.path.append("C:\Users\vp140\AppData\Roaming\nltk_data\corpora")
+nltk.data.path.append(r"C:\Users\vp140\AppData\Roaming\nltk_data\corpora")
 nltk.download('english') 
 
 def fetch_yt_video(link):
